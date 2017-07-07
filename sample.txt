@@ -1,0 +1,2 @@
+mount_name         username         ipaddr        folder_name        target_folder
+sample             root             192.168.1.2   /Volumes/sample    /
