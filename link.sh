@@ -1,7 +1,7 @@
 #!/bin/bash
 # This bash script is for running sshfs in a friendly way
 
-mount() {
+link() {
 
   # If no arguments passed in, send error message together with help message
   if [[ $1 == "" || $2 == "" ]]; then

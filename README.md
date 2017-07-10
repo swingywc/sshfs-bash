@@ -24,7 +24,7 @@ target_folder | Initial directory when accessing target Volume
 
 Command | Details
 ------- | -------
-```mount <mount_name> start``` | Create the local directory and start mounting the volume.<br>Please make sure you have connected to the same network<br>and the ip address is correct
-```mount <mount_name> stop``` | Unmount the volume.
-```mount <mount_name> clear``` | Try to unmount the volume and remove the folder.
+```link <mount_name> start``` | Create the local directory and start mounting the volume.<br>Please make sure you have connected to the same network<br>and the ip address is correct
+```link <mount_name> stop``` | Unmount the volume.
+```link <mount_name> clear``` | Try to unmount the volume and remove the folder.
 ```connect <mount_name>``` | Connect to the mount point using ssh.
